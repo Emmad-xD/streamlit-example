@@ -4,7 +4,7 @@ from fastai.vision.all import *
 def GetLabel(fileName):
   return fileName.split('-')[0]
 
-learn = load_learner('path/to/model.pkl')
+learn = load_learner('model.py')
 
 def app():
   st.set_page_config(page_title="Food Classifier", page_icon=":pizza:")
